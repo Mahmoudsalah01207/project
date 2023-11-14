@@ -1,0 +1,299 @@
+#home{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.267),rgba(0, 0, 0, 0.267)), url(img/Berlin094.jpg) ;
+        height: 100vh;
+    background-size:cover;
+    background-position: center center;
+    background-color: transparent;
+    background-attachment: fixed;
+
+
+    }
+    .black{
+      color: black;
+  }
+  
+  .btn1{
+      background-color: white !important;
+  }
+  .btn1:hover{
+  background-color: rgba(255, 255, 255, 0.87) !important;
+  }
+  .nav-transparent {
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-transparent.scrolled {
+    background-color: darkgrey; 
+  }
+  #home a {
+    color: white;
+  }
+  .anim{
+    width: 30px;
+    border: white solid;
+    height: 50px;
+    border-radius: 400px;
+    position: relative;
+    animation-name: circl;
+    animation-duration: 3s; 
+}
+
+.point{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: white;
+    animation: verticalMotion 1s infinite linear;
+  }
+
+@keyframes verticalMotion {
+0% {
+    top: 0;
+  }
+  100% {
+    top: calc(70% - 10px );
+    opacity: 0.1;
+
+  }
+
+
+}
+#home h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+}
+#home h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 76px;
+  line-height: 91px;
+}
+#home p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px; 
+  line-height: 40px;
+
+}
+.icon-circle{
+  padding:20px;
+  padding-top: 30px;
+  border: solid 1px #e1549b;
+  border-radius: 50%;
+  background-color: #e1549b;
+}
+#icon h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px; 
+
+}
+#icon p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px; 
+  line-height: 27.9px;
+  color: rgba(0, 0, 0, 0.459);
+
+}
+
+.services-icon i {
+color: white;
+padding-bottom:30px ;
+font-size: 30px;
+}
+#goal h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 32px; 
+line-height: 44.2px;
+}
+#goal h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px; 
+line-height: 24.8px;
+}
+
+#goal p  {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 27.9px;
+  color: #686868;
+}
+.our-goal p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 30.2px;
+  color: #686868;
+}
+#about-us {
+background-image: linear-gradient(rgba(0, 0, 0, 0.671),rgba(0, 0, 0, 0.671)), url(img/OIP1.jpg);
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+
+  }
+  #about-us p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+  }
+  #about-us h3 {
+   padding-top: 5px;
+   font-family: 'Work Sans', sans-serif;
+   font-size: 17px; 
+  }
+  #about-us h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px; 
+    padding-top: 20px;
+   }
+#about-us i{
+font-size: 30px;
+color: white;
+text-align: center;
+vertical-align:top;
+}
+.layer{
+  position: relative;
+  overflow: hidden;
+transition: 1s;
+}
+.overlay i {
+  position: relative;
+  top: 55%;
+  /* transition: 0.4s; */
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(128, 128, 128);
+  opacity: 0;
+  /* transition: all 0.2s; */
+}
+.layer:hover img {
+  transform: scale(1.1);
+  transition:  0.6s;
+}
+.layer:hover i {
+  top: 50%;
+  transition:  0.4s;
+}
+.layer:hover .overlay {
+  opacity: 0.4;
+transition:  1s;
+}
+.link a,.link p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #cccccc44;
+  margin-top: 8px;
+  
+}
+.link a {
+  color: rgba(255, 255, 255, 0.425);
+  text-decoration: none;
+   padding-bottom:15px ;
+
+} 
+.link {
+  font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+}
+
+.footer h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+.footer{
+  background-color: #413d38;
+}
+.icon a{
+  color: rgba(255, 255, 255, 0.425);
+  text-decoration: none;
+   padding-bottom:15px ;
+
+} 
+.icon i {
+  color: rgba(255, 255, 255, 0.425);
+}
+.icon a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #cccccc44;
+  margin-top: 8px;
+}
+.icon  span a {
+  padding-left: 10px;
+  font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+}
+.icon div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-icon {
+  width: 50%;   
+}
+.footer-icon  i{
+  font-size: 15px;
+  padding: 5px;
+  border: solid 1px #363330;
+  border-radius: 50%;
+  margin-left: 10px;
+  color:white;
+  background-color: palevioletred;
+
+}
+.Opening-Hours  div{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.tumblr i{
+padding: 5px 7px;
+}
+.footer-icon i:hover  {
+  background-color: blue;
+  color: white;
+}
+.text p{
+  font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+}
+#News p{
+  font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+line-height: 29.9px;
+}
+#News h4{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+#News a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+
+}
+#News h3 a{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+#News h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+  line-height: 41.4px;
+}
+#News h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  line-height: 31.6px;
+
+}
